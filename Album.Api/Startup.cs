@@ -39,6 +39,8 @@ namespace Album.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseHealthChecks("/health");//your request URL will be health
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
