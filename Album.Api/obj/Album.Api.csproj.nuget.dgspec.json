@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WLD\\repos\\new album api\\album-api\\Album.Api\\Album.Api.csproj": {}
+    "/Users/kevinson/album-api-4/Album.Api/Album.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WLD\\repos\\new album api\\album-api\\Album.Api\\Album.Api.csproj": {
+    "/Users/kevinson/album-api-4/Album.Api/Album.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WLD\\repos\\new album api\\album-api\\Album.Api\\Album.Api.csproj",
+        "projectUniqueName": "/Users/kevinson/album-api-4/Album.Api/Album.Api.csproj",
         "projectName": "Album.Api",
-        "projectPath": "C:\\Users\\WLD\\repos\\new album api\\album-api\\Album.Api\\Album.Api.csproj",
-        "packagesPath": "C:\\Users\\WLD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WLD\\repos\\new album api\\album-api\\Album.Api\\obj\\",
+        "projectPath": "/Users/kevinson/album-api-4/Album.Api/Album.Api.csproj",
+        "packagesPath": "/Users/kevinson/.nuget/packages/",
+        "outputPath": "/Users/kevinson/album-api-4/Album.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\WLD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kevinson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -57,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

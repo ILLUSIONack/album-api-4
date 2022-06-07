@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hxFrd3qPWW1GqBOOVkHzHTk9Ffs20dMjDUWhdycAPyBPvGB5UrjqriYlGSigTDv3kSXXvTg1GpauGOClhX/erA==",
+  "dgSpecHash": "LEi05r9o3oXPWEwFnjf5TE5bvJi7LtTMVMHwo4z3VYl2bwqZSNNnOM6CaYyYq13GlPEkmP8xtQl+w1OGttd/oQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WLD\\repos\\new album api\\album-api\\Album.Api\\Album.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/kevinson/album-api-4/Album.Api/Album.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/kevinson/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
