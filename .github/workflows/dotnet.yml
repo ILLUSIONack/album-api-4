@@ -47,7 +47,7 @@ jobs:
       with:
         task-definition: task-definition.json
         container-name: AlbumContainer
-        image: ${{ steps.build-image.outputs.image }}
+        image: 391046032910.dkr.ecr.us-east-1.amazonaws.com/cnsd/album:${{github.run_number}}
 
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
